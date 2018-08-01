@@ -12,8 +12,9 @@ background-repeat: no-repeat;
 }
 .display-4 {
     font-family:  'Eczar', serif;
-    color: white;
+    color: red;
     font-size: 45px;
+    font-weight: bolder;
 }
 .lead {
     font-family: 'PT Serif', serif;
