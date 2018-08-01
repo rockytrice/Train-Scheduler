@@ -39,9 +39,25 @@ $("#add-train-btn").on("click", function (event) {
     console.log(trainFrequency);
 
 
-
+// clears input field when user submits data
     $("#name-input").val("");
     $("#Destination-input").val("");
     $("#train-time").val("");
     $("#Frequency-input").val("");
+})
+
+database.ref().on("child_added", function(childSnapShot){
+    console.log(childSnapShot.val());
+
+    var trainName = childSnapShot.val().name;
+    var trainDestination = childSnapShot.val().destination;
+    var trainTime = childSnapShot.val().time;
+    var trainFrequency = childSnapShot.val().frequency;
+
+    // train info
+    console.log(trainName);
+    console.log(trainDestination);
+    console.log(trainTime);
+    console.log(trainFrequency);
+
 })
