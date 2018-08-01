@@ -19,23 +19,48 @@ background-repeat: no-repeat;
 .lead {
     font-family: 'PT Serif', serif;
     color: white;
-    font-size: 24px;
+    font-size: 38px;
     font-weight: bold;
 }
 .card {
     opacity: 0.8;
-    margin-top: -120px;
+    margin-top: -114px;
+    background-color: red;
 }
 .card2 {
     opacity: 0.8;
-    margin-top: -98px;
-    background-color: white;
+    margin-top: -90px;
+    background-color: red;
 }
 th{
     padding: 19px;
+    font-family: 'Fanwood Text', serif;
+    font-weight: bold;
+    font-size: 20px;
+
 }
 .table {
     background-color: white;
     opacity: 0.8;
 text-align: center;
+}
+.bg-light{
+    background-color: transparent!important;
+}
+.navbar-brand {
+    color: white!important;
+    font-family: 'Merriweather', serif;
+
+}
+label {
+    font-family: 'Fanwood Text', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card-header {
+    font-family: 'Fanwood Text', serif;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
 }
