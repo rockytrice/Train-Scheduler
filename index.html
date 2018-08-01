@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Train Scheduler</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Eczar:700|Merriweather:700|PT+Serif" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -16,8 +17,41 @@
           <p class="lead">Your One stop shop for train scheduling and times.</p>
         </div>
       </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <br>
+          <!-- First panel is for handling the search parameters -->
+          <div class="card">
+            <div class="card-header">
+              <strong>
+                <i class="addEmployee"></i> Add Train</strong>
+            </div>
+            <div class="card-body">
+              <!-- Here we create an HTML Form for handling the inputs-->
+              <form role="form">
+                <!-- Here we create the text box for capturing the search term-->
+                <div class="form-group">
+                  <label for="name">Train Name:</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+     
 
+                <div class="form-group">
+                    <label for="Destination">Destination:</label>
+                    <input type="text" class="form-control" id="Destination">
+                  </div>
+                 
+                  <div class="form-group">
+                    <label for="time">First Train Time (HH:mm-Military Time):</label>
+                    <input type="text" class="form-control" id="train-time">
+                  </div>
+    
+                  <div class="form-group">
+                    <label for="rate">Frequency:</label>
+                    <input type="text" class="form-control" id="Frequency">
+                  </div>
 
+                  <input class="btn btn-primary" type="submit" value="Submit">
 
 
 
