@@ -10,16 +10,17 @@
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Eczar:700|Fanwood+Text|Merriweather:700|PT+Serif" rel="stylesheet">
     <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-        <nav class="navbar navbar-light bg-light">
-                <a class="navbar-brand" href="#">
-                  <img src="https://www.trainstationnyc.com/wp-content/uploads/2018/02/cropped-trainstationfavicon.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                  Train Time
-                </a>
-              </nav>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="https://www.trainstationnyc.com/wp-content/uploads/2018/02/cropped-trainstationfavicon.png" width="30" height="30"
+                class="d-inline-block align-top" alt=""> Train Time
+        </a>
+    </nav>
     <div class="container">
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
@@ -39,13 +40,13 @@
                         <form role="form">
                             <div class="form-group">
                                 <label for="name">Train Name:</label>
-                                <input type="text" class="form-control" id="name">
+                                <input type="text" class="form-control" id="name-input">
                             </div>
 
 
                             <div class="form-group">
                                 <label for="Destination">Destination:</label>
-                                <input type="text" class="form-control" id="Destination">
+                                <input type="text" class="form-control" id="Destination-input">
                             </div>
 
                             <div class="form-group">
@@ -55,7 +56,7 @@
 
                             <div class="form-group">
                                 <label for="rate">Frequency:</label>
-                                <input type="text" class="form-control" id="Frequency">
+                                <input type="text" class="form-control" id="Frequency-input">
                             </div>
 
                             <input class="btn btn-primary" type="submit" id="add-train-btn" value="Submit">
@@ -93,7 +94,7 @@
                             <td></td>
                             <td></td>
                         </tr>
-                        
+
                     </tbody>
                 </table>
 
@@ -106,17 +107,10 @@
 
 
 
-
-
-
-
-
-<foot></foot>
-<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-<script src="assets/javascript/train.js"></script>
+            <foot></foot>
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+            <script src="assets/javascript/train.js"></script>
 </body>
 
 </html>
