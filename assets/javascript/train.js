@@ -31,10 +31,17 @@ $("#add-train-btn").on("click", function (event) {
         frequency: trainFrequency
 
     }
-
+// logs to the console.. working properly
     database.ref().push(newTrain);
     console.log(trainName);
     console.log(trainDestination);
     console.log(trainTime);
     console.log(trainFrequency);
+
+
+
+    $("#name-input").val("");
+    $("#Destination-input").val("");
+    $("#train-time").val("");
+    $("#Frequency-input").val("");
 })
