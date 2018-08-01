@@ -21,3 +21,20 @@ background-repeat: no-repeat;
     font-size: 24px;
     font-weight: bold;
 }
+.card {
+    opacity: 0.8;
+    margin-top: -120px;
+}
+.card2 {
+    opacity: 0.8;
+    margin-top: -98px;
+    background-color: white;
+}
+th{
+    padding: 19px;
+}
+.table {
+    background-color: white;
+    opacity: 0.8;
+text-align: center;
+}
