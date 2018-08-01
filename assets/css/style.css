@@ -12,13 +12,13 @@ background-repeat: no-repeat;
 }
 .display-4 {
     font-family:  'Eczar', serif;
-    color: red;
+    color: white;
     font-size: 45px;
     font-weight: bolder;
 }
 .lead {
-    font-family: 'PT Serif', serif;
-    color: white;
+    font-family: 'Eczar', serif;
+    color: red;
     font-size: 38px;
     font-weight: bold;
 }
@@ -62,5 +62,4 @@ label {
     font-weight: bold;
     font-size: 25px;
     
-}
 }
